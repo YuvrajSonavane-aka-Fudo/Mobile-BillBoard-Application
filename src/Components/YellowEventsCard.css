@@ -1,0 +1,56 @@
+.yellowCardBackground {
+  width: 20%;
+  height: 430px; /* Keep the original height */
+  background-color: #FFE14C;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 10px 2px; /* Further reduce margin to bring cards closer */
+  padding: 10px 50px; /* 10px top and bottom, 50px left and right */
+  position: relative;
+  border-radius: 15px; /* Add rounded corners */
+  overflow: hidden; /* Ensure the content inside the card respects the rounded corners */
+  font-family: 'Jomolhari', serif; /* Set the font to Jomolhari */
+  border: 5px solid white; /* Thick white border */
+}
+
+.title {
+  font-size: 24px;
+  color: black;
+  margin-bottom: 10px;
+}
+
+.placesList {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  overflow-y: auto; /* Add vertical scroll if content overflows */
+  width: 100%; /* Ensure the list takes the full width */
+}
+
+.placeItem {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.placeLink {
+  color: black;
+  text-decoration: underline; /* Ensure underline */
+  font-size: 35px; /* Adjust font size as needed */
+  flex-grow: 1; /* Ensure the link takes available space */
+}
+
+.arrowButton {
+  background-color: white;
+  border: none;
+  color: black;
+  font-size: 24px;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-left: 10px; /* Add some space between the link and the button */
+}

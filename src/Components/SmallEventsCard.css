@@ -1,0 +1,52 @@
+.smallCardBackground {
+  width: 25%;
+  height: 450px; /* Same height as the big card */
+  background-color: #A3D977;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin: 10px 2px; /* Adjust margin to bring cards closer */
+  position: relative;
+  border-radius: 15px; /* Add rounded corners */
+  overflow: hidden; /* Ensure the content inside the card respects the rounded corners */
+  border: 5px solid white; /* Thick white border */
+}
+
+.emptyStateImage {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  height: auto;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.75);
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.text {
+  color: white; /* White text color */
+  font-size: 18px;
+}
+
+.text a {
+  color: white; /* White text color */
+  text-decoration: none;
+}
+
+.icon {
+  color: white; /* White text color */
+  font-size: 24px;
+  margin-left: 10px;
+}
+
+.icon a {
+  color: white; /* White text color */
+  text-decoration: none;
+}

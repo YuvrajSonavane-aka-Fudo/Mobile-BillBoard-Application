@@ -1,0 +1,74 @@
+.authContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Cover the entire viewport height */
+    background-color: #f5f5f5; /* Light background color */
+    position: relative;
+  }
+  
+  .authCard {
+    width: 400px;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    text-align: center;
+    color: black; /* Black text color */
+  }
+  
+  .authCard h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: black; /* Black text color */
+  }
+  
+  .authCard form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .authCard input {
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: white; /* White background color */
+    color: black; /* Black text color */
+  }
+  
+  .authCard input::placeholder {
+    color: #bbb; /* Lighter placeholder color */
+  }
+  
+  .authCard button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #4285f4;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .authCard button:hover {
+    background-color: #357ae8;
+  }
+  
+  .backButton {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #f5f5f5; /* Lighter background color */
+    color: black; /* Black text color */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .backButton:hover {
+    background-color: #e0e0e0; /* Lighter hover background color */
+  }

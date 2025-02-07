@@ -1,0 +1,35 @@
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 150px 20px 150px; /* 45px top, 150px left and right, 20px bottom */
+  margin: 20px; /* Add margin of 20px */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: transparent; /* Remove background color */
+  font-family: 'Jomolhari', serif; /* Set the font to Jomolhari */
+  z-index: 1; /* Ensure the navbar is above other content */
+}
+
+.navLeft {
+  font-size: 24px; /* Increase font size */
+  color: black; /* Black text color */
+}
+
+.navRight {
+  display: flex;
+  gap: 20px;
+}
+
+.navRight span, .navRight a {
+  font-size: 24px; /* Increase font size */
+  text-decoration: none;
+  color: black; /* Black text color */
+}
+
+.navRight a:hover {
+  text-decoration: underline;
+}
